@@ -8,7 +8,7 @@ A boring Hexo theme
 
 ### If you use RSS
 - `yarn add hexo-generator-feed`
-- `edit $BLOG/themes/saki.li/_config.yml` and add `disqus-shortname: `
+- `edit $BLOG/themes/saki.li/_config.yml` and add `RSS: /atom.xml` `
 - `hexo g -d`
 
 ### If you use disqus
