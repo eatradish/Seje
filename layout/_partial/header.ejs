@@ -4,7 +4,6 @@
   </div>
   <nav class="navbar">
     <ul class="menu">
-      <% theme.menu['RSS'] = '/atom.xml' %>
       <% for (name in theme.menu) { %>
         <li class="menu-item">
           <a href="<%- url_for(theme.menu[name]) %>" class="menu-item-link"><%= __(name) %></a>
