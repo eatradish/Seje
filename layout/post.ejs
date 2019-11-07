@@ -8,7 +8,9 @@
     <div class="post-content">
         <%- page.content %>
     </div>
-    <div class="post-comment">
+</article>
+
+<div class="post-comment">
         <% if ((page.layout == 'post' || page.layout == 'page') && config.disqus_shortname && page.comments){ %>
         <section id="comments">
             <div id="disqus_thread"></div>
@@ -35,4 +37,3 @@
                   }) %>
         <% } %>
     </div>
-</article>
