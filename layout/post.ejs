@@ -6,6 +6,26 @@
         <span class="post-time"><%- date(page.date, "YYYY-MM-DD") %></span>
     </div>
     <div class="post-content">
-        <%- page.excerpt %>
+        <%- page.content %>
+    </div>
+    <div class="post-comment">
+        <% if ((page.layout == 'post' || page.layout == 'page') && config.disqus_shortname && page.comments){ %>
+        <script type="text/javascript">
+            var disqus_shortname = '<%= config.disqus_shortname %>';
+            var disqus_config = function () {
+                this.page.url = '<%= config.url %>/<%= page.path %>';
+                this.page.identifier = '/<%= page.path %>';
+                this.page.title = '<%= page.title %>';
+            };
+            (function () {
+                var d = document;
+                var dsq = d.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/<% if (page.comments){ %>embed.js<% } else { %>count.js<% } %>';
+                (d.head || d.body).appendChild(dsq);
+            })();
+        </script>
+        <% } %>
     </div>
 </article>
