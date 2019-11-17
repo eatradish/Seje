@@ -1,0 +1,14 @@
+<% if (page.prev || page.next){ %>
+<div class="prev">
+    <% if (page.prev){ %>
+    <a href="<%- config.root %><%- page.prev.path %>" class="alignleft prev"
+        title="<%= page.prev.title %>"><%= "<= " + page.prev.title%></a>
+    <% } %>
+</div>
+<div class="next">
+    <% if (page.next){ %>
+    <a href="<%- config.root %><%- page.next.path %>" class="alignright next"
+        title="<%= page.next.title %>"><%= page.next.title + " =>"%></a>
+    <% } %>
+</div>
+<% } %>
