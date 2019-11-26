@@ -2,7 +2,8 @@
 A boring Hexo theme
 
 ## Use
-- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li` //$HEXO_FLODDER is your hexo flodder
+- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li` 
+  `$HEXO_FLODDER` is your hexo flodder
 - edit _config.yml
     ```
     theme: saki.li
@@ -30,3 +31,7 @@ Does every post on your homepage need to show a summary or a whole post? You can
 ```
 excerpt: true
 ```
+
+### Bug
+
+- [] Code block line number cannot close (look https://github.com/hexojs/hexo/issues/3884)
