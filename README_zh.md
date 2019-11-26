@@ -3,7 +3,7 @@
 
 ## 使用
 - `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/` 
-  `$HEXO_FLODDER` 是你的 Hexo 博客文件夹目录
+  //`$HEXO_FLODDER` 是你的 Hexo 博客文件夹目录
 - 修改你的 `_config.yml`，把你的 `theme` 值修改为 `saki.li`
 - `yarn add hexo-excerpt` // 添加 Hexo 显示概要插件
 - `hexo g -d` // 生成并上传
