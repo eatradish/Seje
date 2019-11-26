@@ -33,6 +33,5 @@ excerpt: true
 The logo font uses `Vollkorn` 400 italics. You can change the font-family under blog-title.logo in `source/css/_partial/post.styl` to other values. I personally recommend using it with Google Fonts and pasting Google Fonts. Html code can be pasted in `layout/_partial/ head.ejs`
 
 ### Bug
-- [ ] Code block line number cannot close (look https://github.com/hexojs/hexo/issues/3884)
-
-Please use `git pull` regularly. Bug fixes are guaranteed.
+- Please use `git pull` regularly. Bug fixes are guaranteed.
+- Issues / Pull requests are welcome
