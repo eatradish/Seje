@@ -3,3 +3,5 @@ menu:
   Archives: /archives
   About: /me
   RSS: /atom.xml
+
+excerpt: false
