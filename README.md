@@ -28,6 +28,10 @@ Does every post on your homepage need to show a summary or a whole post? You can
 excerpt: true
 ```
 
+### About logo fonts
+
+The logo font uses `Vollkorn` 400 italics. You can change the font-family under blog-title.logo in `source/css/_partial/post.styl` to other values. I personally recommend using it with Google Fonts and pasting Google Fonts. Html code can be pasted in `layout/_partial/ head.ejs`
+
 ### Bug
 - [ ] Code block line number cannot close (look https://github.com/hexojs/hexo/issues/3884)
 
