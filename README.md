@@ -2,7 +2,7 @@
 A boring Hexo theme
 
 ## Use
-- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li //$HEXO_FLODDER is your hexo flodder`
+- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li` //$HEXO_FLODDER is your hexo flodder
 - edit _config.yml
     ```
     theme: saki.li
