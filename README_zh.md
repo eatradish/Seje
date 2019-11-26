@@ -28,6 +28,9 @@
 excerpt: true
 ```
 
+### 关于 logo 字体
+Logo 字体使用了 `Vollkorn` 400 斜体，你可以在 `source/css/_partial/post.styl` 的 `blog-title .logo` 下的 `font-family` 改成其他的值，个人比较推荐搭配 Google Fonts 使用，把 Google Fonts 要粘贴的 Html 代码粘贴在 `layout/_partial/head.ejs` 即可
+
 ### Bug
 
 - 代码块行号无法关闭 (详细 https://github.com/hexojs/hexo/issues/3884)
