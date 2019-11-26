@@ -23,3 +23,10 @@ A boring Hexo theme
   ```
 
 - `hexo g -d`
+
+### except Vs Content?
+Does every post on your homepage need to show a summary or a whole post? You can modify it in _config.yml. The default is to display a full post. You can change it to this in your `$HEXOFLODDER` to display the summary.
+
+```
+excerpt: true
+```
