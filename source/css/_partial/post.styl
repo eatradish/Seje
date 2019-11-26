@@ -10,7 +10,7 @@
     justify-content: center;
   }
 
-  h2 h3 h4 h5 h6 {
+  h2, h3, h4, h5, h6 {
     font-size: 1.2em;
   }
 
@@ -33,19 +33,42 @@
     margin: 1rem 0;
   }
 
-  .highlight.bash {
-    margin: 0;
-    padding: 0;
+  .highlight .code pre {
+    background: #f7f7f7;
+    padding-left: 10px;
+    width: 100%;
     font-family: "Fantasque Sans Mono", monospace;
-    background-color: gray;
-    color: #fff;
-    line-height: 1em;
-
-    pre {
-      padding: 0;
-      margin: 0;
-    }
   }
+
+  .highlight pre {
+    border: 0;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .gutter pre {
+    padding-left: 20px;
+  }
+
+  pre {
+    overflow: auto;
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  pre, .highlight {
+    background: #f7f7f7;
+    color: #4d4d4c;
+    line-height: 1.6;
+    margin: 0 auto 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.875em;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
