@@ -2,15 +2,24 @@
 A boring Hexo theme
 
 ## Use
-- Edit _config.yml
+- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li //$HEXO_FLODDER is your hexo flodder`
+- edit _config.yml
+  ```
+  theme: saki.li
+  ```
+
 - `yarn add hexo-excerpt`
 - `hexo g -d`
 
 ### If you use RSS
 - `yarn add hexo-generator-feed`
-- `edit $BLOG/themes/saki.li/_config.yml` and add `RSS: /atom.xml` `
+- `edit $HEXO_FLODDE/themes/saki.li/_config.yml` and add `RSS: /atom.xml` `
 - `hexo g -d`
 
 ### If you use disqus
-- Set your disqus_shortname in your hexo `_config.yml`
+- Set your disqus_shortname in your hexo `_config.yml` :
+```
+disqus_shortname: $YOUR_SHORTNAME
+```
+
 - `hexo g -d`
