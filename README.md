@@ -4,9 +4,9 @@ A boring Hexo theme
 ## Use
 - `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li //$HEXO_FLODDER is your hexo flodder`
 - edit _config.yml
-  ```
-  theme: saki.li
-  ```
+    ```
+    theme: saki.li
+    ```
 
 - `yarn add hexo-excerpt`
 - `hexo g -d`
@@ -18,8 +18,8 @@ A boring Hexo theme
 
 ### If you use disqus
 - Set your disqus_shortname in your hexo `_config.yml` :
-```
-disqus_shortname: $YOUR_SHORTNAME
-```
+  ```
+  disqus_shortname: $YOUR_SHORTNAME
+  ```
 
 - `hexo g -d`
