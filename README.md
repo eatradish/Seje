@@ -33,6 +33,6 @@ excerpt: true
 ```
 
 ### Bug
-- [] Code block line number cannot close (look https://github.com/hexojs/hexo/issues/3884)
+- [ ] Code block line number cannot close (look https://github.com/hexojs/hexo/issues/3884)
 
 Please use `git pull` regularly. Bug fixes are guaranteed.
