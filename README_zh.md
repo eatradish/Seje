@@ -33,6 +33,5 @@ Logo 字体使用了 `Vollkorn` 400 斜体，你可以在 `source/css/_partial/p
 
 ### Bug
 
-- 代码块行号无法关闭 (详细 https://github.com/hexojs/hexo/issues/3884)
-
-请定期使用 `git pull` 来修复可能含有的 Bug
+- 请定期使用 `git pull` 来修复可能含有的 Bug
+- 欢迎提 Issue / Pull requests
