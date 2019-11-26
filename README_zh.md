@@ -14,7 +14,7 @@
 - `hexo g -d`
 
 ### 如果你使用 Disqus 评论
-- 在你的 hexo 目录下的 `_config.yml` 设置你的 `disqus_shortname` :
+- 在你的 `$HEXOFLODDER` 目录下的 `_config.yml` 设置你的 `disqus_shortname` :
   ```
   disqus_shortname: $YOUR_SHORTNAME
   ```
@@ -22,7 +22,7 @@
 - `hexo g -d`
 
 ### 概要 VS 全文？
-您的主页的的每一个 post 需要显示概要还是一整篇 post 呢？可以在 `_config.yml` 修改它，默认是显示一整篇的 post，你可以在你的 `$HEXOFLODDER` 下的 `_config.yml` 添加这一行，就能只显示概要了：
+您的主页的的每一个 post 需要显示概要还是一整篇 post 呢？可以在 `_config.yml` 修改它，默认是显示一整篇的 post，你可以在你的 `$HEXOFLODDER/themes/saki.li` 下的 `_config.yml` 添加这一行，就能只显示概要了：
 
 ```
 excerpt: true
