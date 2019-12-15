@@ -30,7 +30,7 @@ excerpt: true
 
 ### About logo fonts
 
-The logo font uses `Vollkorn` 400 italics. You can change the font-family under blog-title.logo in `source/css/_partial/post.styl` to other values. I personally recommend using it with Google Fonts and pasting Google Fonts. Html code can be pasted in `layout/_partial/ head.ejs`
+The logo font uses `Noto Serif` 400 italics. You can change the font-family under blog-title.logo in `source/css/_partial/post.styl` to other values. I personally recommend using it with Google Fonts and pasting Google Fonts. Html code can be pasted in `layout/_partial/ head.ejs`
 
 ### Bug
 - Please use `git pull` regularly. Bug fixes are guaranteed.
