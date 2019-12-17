@@ -5,4 +5,4 @@ menu:
   RSS: /atom.xml
 
 excerpt: false
-always_mobile_layout: true
+always_mobile_layout: false
