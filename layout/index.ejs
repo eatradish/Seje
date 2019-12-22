@@ -7,7 +7,7 @@
       <div class="post-content">
         <% if(theme.excerpt){ %>
         <%- post.excerpt %>
-        <a class="More" href="<%- url_for(post.path) %>">More</a>
+        <a class="More" href="<%- url_for(post.path) %>"><%= __('More') %></a>
         <% } else { %>
         <%- post.content %>
         <% } %>
