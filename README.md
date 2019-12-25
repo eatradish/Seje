@@ -28,6 +28,9 @@ Does every post on your homepage need to show a summary or a whole post? You can
 excerpt: true
 ```
 
+### Center layout
+That is to try to center, you can set `always_mobile_layout` to` true` in the theme `_config.yml` and try it?
+
 ### About logo fonts
 
 The logo font uses `Noto Serif` 400 italics. You can change the font-family under blog-title.logo in `source/css/_partial/post.styl` to other values. I personally recommend using it with Google Fonts and pasting Google Fonts. Html code can be pasted in `layout/_partial/ head.ejs`
