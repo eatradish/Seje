@@ -2,7 +2,7 @@
 A boring Hexo theme
 
 ## Use
-- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li` 
+- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li`
   `$HEXO_FLODDER` is your hexo flodder
 - Modify your `_config.yml` and change your `theme` value to `saki.li`
 - `yarn add hexo-excerpt`
@@ -27,9 +27,6 @@ Does every post on your homepage need to show a summary or a whole post? You can
 ```
 excerpt: true
 ```
-
-### Center layout
-That is to try to center, you can set `always_mobile_layout` to` true` in the theme `_config.yml` and try it?
 
 ### About logo fonts
 

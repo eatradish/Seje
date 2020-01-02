@@ -2,7 +2,7 @@
 一个「白纸黑字」的 Hexo 主题，[效果](https://eatradish.github.io) 以及 [Github](https://github.com/eatradish/saki.li)
 
 ## 使用
-1. `git clone https://github.com/eatradish/saki.li.git $BLOG/themes/` 
+1. `git clone https://github.com/eatradish/saki.li.git $BLOG/themes/`
    `$BLOG` 是你的 Hexo 博客文件夹目录
 
 2. 修改你的 `_config.yml`，把你的 `theme` 值修改为 `saki.li`
@@ -38,9 +38,6 @@ excerpt: true
 
 ### 关于 logo 字体
 Logo 字体使用了 `Noto Serif` 400 ，你可以在 `source/css/_partial/post.styl` 的 `blog-title .logo` 下的 `font-family` 改成其他的值，个人比较推荐搭配 Google Fonts 使用，把 Google Fonts 要粘贴的 Html 代码粘贴在 `layout/_partial/head.ejs` 即可
-
-### 总是使用移动试图吗？
-即居中试图，可在主题的 `_config.yml` 把 `always_mobile_layout` 设成 `true` 试试看？
 
 ### Bug
 
