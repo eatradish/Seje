@@ -42,6 +42,14 @@ Logo 字体使用了 `Noto Serif` 400 ，你可以在 `source/css/_partial/post.
 ### 关于图标
 把你的 `favicon.ico` 复制到 `$BLOG/source` 或 `$BLOG/themes/saki.li/source` 即可
 
+### 代码高亮
+此主题使用 [highlight](https://highlightjs.org/) 实现代码高亮，如果你要打开代码高亮，请在 `$BLOG/_config.yml` 的 `highlight` 添加：
+
+```
+enable: true
+hljs: true
+```
+
 ### Bug
 
 - 请定期使用 `git pull` 来修复可能含有的 Bug
