@@ -5,5 +5,11 @@
     <%- favicon_tag('favicon.ico') %>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,700|Noto+Serif:400,400i&display=swap"
         rel="stylesheet">
+    <% if (config.highlight.enable){ %>
+    <link rel="stylesheet"
+        href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/arduino-light.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <% } %>
     <%- css('css/style.css') %>
 </head>
