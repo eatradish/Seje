@@ -15,7 +15,10 @@
         height: 26.5;
     }
     .menu {
-        font-family: "Noto Serif", "Noto Serif SC";
+        font-family: "TIBch", "Classic Grotesque W01", "Avenir Next", 
+            "Segoe UI", "Helvetica Neue", Arial, "PingFang SC",
+            "Heiti SC", "Noto Sans CJK SC", "Source Han Sans SC",
+            "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
         margin: 0 auto;
         vertical-align: text-top;
         padding-left: 0;
@@ -24,12 +27,16 @@
             padding: 0.25em;
         }
         .menu-item-link {
-            color: #bababa;
+            color:  #bababa;
             text-decoration: none;
             font-size: 1em;
             &:hover {
-                color: gray;
+                color: #111;
             }
+        }
+        .current-menu-item-link {
+            color: #111;
+            text-decoration: none;
         }
     }
 }
