@@ -6,7 +6,7 @@
     <ul class="menu">
       <% for (let name in theme.menu) { %>
       <% let nav = page.path.replace('index.html', '') %>
-      <% if (nav === '') nav = '/' %>
+      <% nav = nav !== '' ? nav : '/' %>
       <li class="menu-item">
         <% if ('/' + nav !== theme.menu[name] + '/') { %>
         <a href="<%- url_for(theme.menu[name]) %>" class="menu-item-link"><%= __(name) %></a>
