@@ -11,15 +11,6 @@
 
 4. `hexo g -d` // 生成并上传
 
-### 如果你使用 RSS
-1. `yarn add hexo-generator-feed`  添加订阅插件
-
-2. `editer $BLOG/themes/saki.li/_config.yml` 添加：
-
-   `RSS: /atom.xml`
-
-3. `hexo g -d`
-
 ### 如果你使用 Disqus 评论
 1. 在你的 `$BLOG/themes/saki.li` 目录下的 `_config.yml` 设置你的 `disqus_shortname` :
 

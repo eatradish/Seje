@@ -2,6 +2,6 @@ menu:
   Home: /
   Archives: /archives
   About: /about
-  RSS: /atom.xml
+  RSS: /rss
 
 excerpt: false

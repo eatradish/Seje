@@ -8,11 +8,6 @@ A boring Hexo theme
 - `yarn add hexo-excerpt`
 - `hexo g -d`
 
-### If you use RSS
-- `yarn add hexo-generator-feed`
-- `edit $HEXO_FLODDE/themes/saki.li/_config.yml` and add `RSS: /atom.xml` `
-- `hexo g -d`
-
 ### If you use disqus
 - Set your disqus_shortname in your hexo `_config.yml` :
   ```
