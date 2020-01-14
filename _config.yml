@@ -1,7 +1,7 @@
 menu:
   Home: /
   Archives: /archives
-  About: /me
+  About: /about
   RSS: /atom.xml
 
 excerpt: false
