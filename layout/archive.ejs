@@ -9,7 +9,7 @@
             <% page.posts.each(function (post) { %>
             <% if ((date(post.date, "YYYY")) === year) { %>
             <li class="post-item">
-                <span class="post-date"><%= date(post.date, "YYYY-MM-DD") %></span>
+                <span class="post-date"><%= date(post.date, "YYYY/MM/DD") %></span>
                 <a class="post-title" href="<%- url_for(post.path) %>"><%= post.title %></a>
             </li>
             <% } else return }) %>
