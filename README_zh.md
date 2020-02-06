@@ -31,7 +31,9 @@ excerpt: true
 Logo 字体使用了 `Noto Serif` 400 ，你可以在 `source/css/_partial/post.styl` 的 `blog-title .logo` 下的 `font-family` 改成其他的值，个人比较推荐搭配 Google Fonts 使用，把 Google Fonts 要粘贴的 Html 代码粘贴在 `layout/_partial/head.ejs` 即可
 
 ### 关于图标
-把你的 `favicon.png` 复制到 `$BLOG/source` 或 `$BLOG/themes/saki.li/source` 即可
+把你的 `favicon.png` 复制到 `$BLOG/source` 或 `$BLOG/themes/saki.li/source` 即可。
+
+你可以自己设置 favicon 的文件名了，只要在主题的 `_config.yml` 中修改 `favicon` 的值，并把你的文件复制到 `$BLOG/source` 或 `$BLOG/themes/saki.li/source` 即可。
 
 ### 代码高亮
 此主题使用 [highlight](https://highlightjs.org/) 实现代码高亮，如果你要打开代码高亮，请在 `$BLOG/_config.yml` 的 `highlight` 添加：

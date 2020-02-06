@@ -30,6 +30,8 @@ The logo font uses `Noto Serif` 400 italics. You can change the font-family unde
 ### About favicon
 Copy your `favicon.png` to `$BLOG/source` or `$BLOG/themes/saki.li/source`
 
+Now you can set the file name of favicon yourself, just modify the value of `favicon` in the theme` _config.yml`, and copy your file to `$BLOG/source` or `$BLOG/themes/saki.li/source`
+
 ### Code Highlight
 This code highlighting is implemented using [highlight.js](https://highlightjs.org/), If you want to turn on code highlighting, please add the `highlight` in `$BLOG/_config.yml`:
 
