@@ -15,8 +15,8 @@
     %>
     <meta name="title" content="<%= title %>">
     <meta name="description" content="<%= description %>">
-    <meta property="og:image" content="/favicon.png">
-    <%- favicon_tag('favicon.png') %>
+    <meta property="og:image" content="/<%= theme.favicon %>">
+    <%- favicon_tag(theme.favicon) %>
     <% if (config.highlight.enable) { %>
     <link rel="stylesheet"
         href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/arduino-light.min.css">
