@@ -28,7 +28,7 @@ excerpt: true
 The logo font uses `Noto Serif` 400 italics. You can change the font-family under blog-title.logo in `source/css/_partial/post.styl` to other values. I personally recommend using it with Google Fonts and pasting Google Fonts. Html code can be pasted in `layout/_partial/ head.ejs`
 
 ### About favicon
-Copy your `favicon.ico` to `$BLOG/source` or `$BLOG/themes/saki.li/source`
+Copy your `favicon.png` to `$BLOG/source` or `$BLOG/themes/saki.li/source`
 
 ### Code Highlight
 This code highlighting is implemented using [highlight.js](https://highlightjs.org/), If you want to turn on code highlighting, please add the `highlight` in `$BLOG/_config.yml`:
