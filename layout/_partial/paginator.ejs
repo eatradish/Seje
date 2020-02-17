@@ -1,8 +1,10 @@
 <% if (page.total > 1){ %>
-  <nav class="page-nav">
-    <%- paginator({
-      prev_text: "&laquo;" + __('Paginator.Prev'),
-      next_text: __('Paginator.Next') + "&raquo;"
-    }) %>
-  </nav>
+<nav class="page-nav">
+  <% if (page.prev) { %>
+    <a href="<%= url_for(page.prev_link) %>" class="prev"><%= __('prev') %></a>
+  <% } %>
+  <% if (page.next) { %>
+    <a href="<%= url_for(page.next_link) %>" class="next"><%= __('next') %></a>
+  <% } %>
+</nav>
 <% } %>
