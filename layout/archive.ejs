@@ -1,9 +1,11 @@
 <section class="archive">
     <ul class="post-archive">
-        <% let x = [] %>
-        <% page.posts.each(function (post) { %>
-        <% if (x.indexOf(date(post.date, "YYYY")) === -1) x.push((date(post.date, "YYYY"))) %>
-        <% }) %>
+        <% 
+        let x = [];
+        page.posts.each(function (post) {
+            if (x.indexOf(date(post.date, "YYYY")) === -1) x.push((date(post.date, "YYYY")));
+        }); 
+        %>
         <% for (let year of x) { %>
         <div class="year"><%= year %>
             <% page.posts.each(function (post) { %>
@@ -17,4 +19,3 @@
         <% } %>
     </ul>
 </section>
-<%- partial('_partial/paginator') %>
