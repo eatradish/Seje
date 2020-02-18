@@ -66,6 +66,7 @@ $(function() {
                 Diaspora.loading()
                 Diaspora.L(tag.attr('href'), function(data) {
                     tag.hide();
+                    $('.license').hide();
                     var link = $(data).find('.more').attr('href');
                     if (link != undefined) {
                         tag.attr('href', link).html('较旧的文章').data('status', 'loaded')
@@ -81,6 +82,7 @@ $(function() {
                     if (link !== '/') {
                         $('body').append($(data).find('.page-nav'))
                     }
+                    $('body').append($(data).find('.license'))
                 }, function() {
                     tag.html('较旧的文章').data('status', 'loaded')
                 })
