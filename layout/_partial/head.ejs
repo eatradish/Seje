@@ -9,8 +9,7 @@
         if (!is_page() && !is_post()) {
             description = config.description;
         } else {
-            const l = page.excerpt.split('\n').slice(0, 5);
-            description = l.join('\n');
+            description = page.description;
         }
     %>
     <meta name="title" content="<%= title %>">
