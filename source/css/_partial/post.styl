@@ -93,20 +93,30 @@
     }
 }
 
-.prev_next {
-    padding: 1em;
-    margin: 0 1em 0 1em;
-    border-style: solid none none none;
-    border: 1px #ddd;
+#prev_next {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    .article-nav-title {
+         color: #616161;
+    }
     p {
         margin: 0;
     }
     .next {
+        display: inline-block;
         text-align: right;
-        color: #616161;
+        margin-left: 5px;
+        box-sizing: border-box;
+        width: 50%;
     }
     .prev {
-        color: #616161;
+        display: inline-block;
+        margin-right: 5px;
+        box-sizing: border-box;
+        width: 50%;
     }
     display: flex;
     justify-content: space-between;

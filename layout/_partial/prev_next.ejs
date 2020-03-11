@@ -1,16 +1,16 @@
-<% if (page.prev || page.next){ %>
+<nav id="prev_next">
+<% if (page.prev || page.next) { %>
 <div class="prev">
     <% if (page.prev){ %>
     <p><%= __('Newer') %></p>
-    <a href="<%- config.root %><%- page.prev.path %>" class="alignleft prev"
-        title="<%= page.prev.title %>"><%= page.prev.title %></a>
+    <a href="<%- config.root %><%- page.prev.path %>"><div class="article-nav-title"><%= page.prev.title %></div></a>
     <% } %>
 </div>
 <div class="next">
     <% if (page.next){ %>
     <p><%= __('Older') %></p>
-    <a href="<%- config.root %><%- page.next.path %>" class="alignright next"
-        title="<%= page.next.title %>"><%= page.next.title %></a>
+    <a href="<%- config.root %><%- page.next.path %>"><div class="article-nav-title"><%= page.next.title %></div></a>
     <% } %>
 </div>
 <% } %>
+</nav>
