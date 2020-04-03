@@ -10,7 +10,7 @@ A boring Hexo theme
 - `hexo g -d`
 
 ### If you use disqus
-- Set your disqus_shortname in your hexo `_config.yml` :
+- Set your disqus_shortname in your `_config.yml` of `$BLOG/themes/saki.li` :
   ```
   disqus_shortname: $YOUR_SHORTNAME
   ```
