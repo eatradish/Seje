@@ -1,20 +1,20 @@
 <header class="header">
-  <div class="blog-title">
-    <a href="<%- url_for() %>" class="logo"><%= config.title %></a>
-  </div>
-  <nav class="navbar">
-    <ul class="menu">
-      <% for (let name in theme.menu) { %>
-      <% let nav = page.path.replace('index.html', '') %>
-      <% nav = nav !== '' ? nav : '/' %>
-      <li class="menu-item">
-        <% if ('/' + nav !== theme.menu[name] + '/') { %>
-        <a href="<%- url_for(theme.menu[name]) %>" class="menu-item-link"><%= __(name) %></a>
-        <% } else { %>
-        <a href="<%- url_for(theme.menu[name]) %>" class="current-menu-item-link"><%= __(name) %></a>
-        <% } %>
-      </li>
-      <% } %>
-    </ul>
-  </nav>
+    <div class="blog-title">
+        <a href="<%- url_for() %>" class="logo"><%= config.title %></a>
+    </div>
+    <nav class="navbar">
+        <ul class="menu">
+            <% for (let name in theme.menu) { %>
+            <% let nav = page.path.replace('index.html', '') %>
+            <% nav = nav !== '' ? nav : '/' %>
+            <li class="menu-item">
+                <% if ('/' + nav !== theme.menu[name] + '/') { %>
+                <a href="<%- url_for(theme.menu[name]) %>" class="menu-item-link"><%= __(name) %></a>
+                <% } else { %>
+                <a href="<%- url_for(theme.menu[name]) %>" class="current-menu-item-link"><%= __(name) %></a>
+                <% } %>
+            </li>
+            <% } %>
+        </ul>
+    </nav>
 </header>
