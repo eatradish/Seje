@@ -5,6 +5,7 @@ menu:
   RSS: /rss
   Member: /member
 
+vertical: true
 excerpt: false
 favicon: favicon.png
 license: 本站文章使用 CC BY-NC-SA 4.0 许可证
