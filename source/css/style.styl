@@ -12,12 +12,6 @@ body {
     word-break: break-word;
 }
 
-@media screen and (min-width: 320px) {
-    body {
-        font-size: calc(16px + 2 * ((100vw - 320px) / 960));
-    }
-}
-
 @media screen and (min-width: 800px) {
     body {
         margin-left: calc((100vw - 3em - 800px) / 2);
@@ -38,4 +32,11 @@ if vertical {
     @import "_partial/style_vertical";
     @import "_partial/header_vertical";
     @import "_partial/post_vertical";
+    @import "_partial/archive_vertical";
+} else {
+    @media screen and (min-width: 320px) {
+        body {
+            font-size: calc(16px + 2 * ((100vw - 320px) / 960));
+        }
+    }
 }
