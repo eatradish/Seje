@@ -32,7 +32,9 @@ body {
 @import "_partial/font-source-serif-pro";
 @import "_partial/dark";
 
-if verticl {
+vertical = hexo-config("vertical");
+
+if vertical {
     @import "_partial/style_vertical";
     @import "_partial/header_vertical";
     @import "_partial/post_vertical";
