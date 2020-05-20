@@ -24,9 +24,13 @@ body {
 @import "_partial/normalize";
 @import "_partial/font-noto-serif-sc";
 @import "_partial/font-source-serif-pro";
-@import "_partial/dark";
 
 vertical = hexo-config("vertical");
+darkmode = hexo-config("darkmode");
+
+if darkmode {
+    @import "_partial/dark";
+}
 
 if vertical {
     @import "_partial/style_vertical";
