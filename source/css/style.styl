@@ -27,8 +27,13 @@ body {
 
 vertical = hexo-config("vertical");
 darkmode = hexo-config("darkmode");
+always_darkmode = hexo-config("always_darkmode");
 
 if darkmode {
+    @import "_partial/darkmode_follow_system";
+}
+
+if always_darkmode {
     @import "_partial/dark";
 }
 
