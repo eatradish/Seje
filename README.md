@@ -44,17 +44,43 @@ hljs: true
 
 saki.li now support podcast (thanks shikwasa (https://github.com/jessuni/shikwas)!), A case of using podcast on saki.li:
 
+1. install hexo-generator-podcast in your blog foldder:
+
 ```
-hexo new "podcast test"
+yarn add hexo-generator-podcast
 ```
 
-Add the following example to the markdown file created:
+2. Set your Podcast info in your `_config.yml`, like this:
+
+```
+podcast:
+    type: rss2
+    path: podcast.xml
+    limit: 20
+    hub:
+    url: https://URL/to/static/resources
+    description: 
+    language: zh-CN
+    copyright: "COPYRIGHT"
+    owner: ITUNES-OWNER
+    email: ITUNES-EMAIL
+    category: CATEGORY
+```
+
+3. `hexo new "podcast-test"` and add the following example to the markdown file created:
 
 ```
 ---
 title: podcast test
 date: 2020-06-19 16:23:38
 tags:
+subtitle: SUBTITLE
+category: podcast # must be exactly `podcast`
+media: /path/to/media # placed under //URL/to/static/resources/path/to/media
+image: /path/to/episode/image # same as above, but somehow itunes doesn't support episode image as it should do
+length: 6989--IN_BYTES
+type: audio/mpeg
+duration: XX:YY:AA
 ---
 一个 Podcast 实例：
 {% raw %}
@@ -67,8 +93,8 @@ tags:
             audio: {
                     title: 'Hello World!',
                     artist: 'Shikwasa FM',
-                    cover: '/favicon.png',
-                    src: '/mp3/1.mp3',
+                    cover: '/path/to/episode/image',
+                    src: '/path/to/media',
             },
         });
     </script>
