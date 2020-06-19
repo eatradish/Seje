@@ -85,24 +85,10 @@ image: /path/to/episode/image # same as above, but somehow itunes doesn't suppor
 length: 6989--IN_BYTES
 type: audio/mpeg
 duration: XX:YY:AA
+author: AUTHOR
 ---
 一个 Podcast 实例：
-{% raw %}
-    <div class="element-of-your-choice">
-        <!-- this is where the player will be injected -->
-    </div>
-    <script>
-        const player = new Shikwasa({
-            container: () => document.querySelector('.element-of-your-choice'),
-            audio: {
-                    title: 'Hello World!',
-                    artist: 'Shikwasa FM',
-                    cover: '/path/to/episode/image',
-                    src: '/path/to/media',
-            },
-        });
-    </script>
-{% endraw %}
+{% podplayer %}
 ```
 
 ### Bug
