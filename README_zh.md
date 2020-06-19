@@ -1,4 +1,4 @@
-# saki.li
+# Seje - 寫嘢
 一个「白纸黑字」的 Hexo 主题，[效果](https://eatradish.github.io) 以及 [Github](https://github.com/eatradish/saki.li)
 
 ## 使用
