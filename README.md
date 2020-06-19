@@ -1,5 +1,5 @@
-# Seje - 寫嘢
-  Seje, An Hexo theme.
+# 寫嘢 - Seje
+  An Hexo theme.
 
 ## Use
 - `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li`
