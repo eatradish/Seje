@@ -40,6 +40,41 @@ enable: true
 hljs: true
 ```
 
+### Podcast
+
+saki.li now support podcast (thanks shikwasa (https://github.com/jessuni/shikwas)!), A case of using podcast on saki.li:
+
+```
+hexo new "podcast test"
+```
+
+Add the following example to the markdown file created:
+
+```
+---
+title: podcast test
+date: 2020-06-19 16:23:38
+tags:
+---
+一个 Podcast 实例：
+{% raw %}
+    <div class="element-of-your-choice">
+        <!-- this is where the player will be injected -->
+    </div>
+    <script>
+        const player = new Shikwasa({
+            container: () => document.querySelector('.element-of-your-choice'),
+            audio: {
+                    title: 'Hello World!',
+                    artist: 'Shikwasa FM',
+                    cover: '/favicon.png',
+                    src: '/mp3/1.mp3',
+            },
+        });
+    </script>
+{% endraw %}
+```
+
 ### Bug
 - Please use `git pull` regularly. Bug fixes are guaranteed.
 - Issues / Pull requests are welcome
