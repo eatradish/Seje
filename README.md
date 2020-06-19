@@ -2,12 +2,19 @@
   An Hexo theme.
 
 ## Use
-- `git clone https://github.com/eatradish/saki.li.git $HEXO_FLODDER/themes/saki.li`
-  `$HEXO_FLODDER` is your hexo flodder
+1. Open your Hexo flodder and Execute the following command：
 
-- Modify your `_config.yml` and change your `theme` value to `saki.li`
+```
+git clone https://github.com/eatradish/Seje.git theme/Seje
+```
 
-- `hexo g -d`
+2. Open your hexo `_config.yml`, set `theme` value as `Seje`:
+
+```
+theme: Seje
+```
+
+3. Use `hexo s` see if it works.
 
 ### If you use disqus
 - Set your disqus_shortname in your `_config.yml` of `$BLOG/themes/saki.li` :
