@@ -10,6 +10,9 @@ hexo.extend.tag.register('podplayer', function(args){
                 cover: '${this.image}',\
                 src: '${this.media}',\
             },\
+            fixed: {\
+                type: 'static',\
+            },\
         });\
     </script>`
 });
