@@ -24,7 +24,7 @@ theme: Seje
 
 - `hexo g -d`
 
-### Except VS Content?
+### Except vs. Content?
 Does every post on your homepage need to show a summary or a whole post? You can modify it in `_config.yml`. The default is to display a full post. You can change it to this in your `$HEXOFLODDER/themes/Seje` to display the summary.
 
 ```
