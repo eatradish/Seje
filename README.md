@@ -46,7 +46,7 @@ hljs: true
 
 ### Podcast
 
-saki.li now support podcast (thanks shikwasa! (https://github.com/jessuni/shikwas)), A case of using podcast on saki.li:
+saki.li now support podcast (thanks [shikwasa](https://github.com/jessuni/shikwas)!) A case of using podcast on saki.li:
 
 1. install hexo-generator-podcast in your blog foldder:
 
