@@ -1,7 +1,7 @@
 # 寫嘢 - Seje
   An Hexo theme.
 
-## Use
+## Install
 1. Open your Hexo flodder and Execute the following command：
 
 ```bash
@@ -16,7 +16,7 @@ theme: Seje
 
 3. Using `hexo s` see if it works.
 
-### If you use disqus
+### If you using disqus
 1. Set your disqus_shortname in your `_config.yml` of `$BLOG/themes/Seje` :
   ```yaml
   disqus_shortname: $YOUR_SHORTNAME
@@ -31,7 +31,7 @@ Does every post on your homepage need to show a summary or a whole post? You can
 excerpt: true
 ```
 
-### About favicon
+### Favicon
 Copy your `favicon.png` to `$BLOG/source` or `$BLOG/themes/Seje/source`
 
 Now you can set the file name of favicon yourself, just modify the value of `favicon` in the theme` _config.yml`, and copy your file to `$BLOG/source` or `$BLOG/themes/Seje/source`
