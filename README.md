@@ -4,30 +4,30 @@
 ## Use
 1. Open your Hexo flodder and Execute the following command：
 
-```
+```bash
 git clone https://github.com/eatradish/Seje.git theme/Seje
 ```
 
 2. Open your hexo `_config.yml`, set `theme` value as `Seje`:
 
-```
+```yaml
 theme: Seje
 ```
 
-3. Use `hexo s` see if it works.
+3. Using `hexo s` see if it works.
 
 ### If you use disqus
-- Set your disqus_shortname in your `_config.yml` of `$BLOG/themes/Seje` :
-  ```
+1. Set your disqus_shortname in your `_config.yml` of `$BLOG/themes/Seje` :
+  ```yaml
   disqus_shortname: $YOUR_SHORTNAME
   ```
 
-- `hexo g -d`
+2. Using `hexo s` see if it works.
 
 ### Except vs. Content?
 Does every post on your homepage need to show a summary or a whole post? You can modify it in `_config.yml`. The default is to display a full post. You can change it to this in your `$HEXOFLODDER/themes/Seje` to display the summary.
 
-```
+```yaml
 excerpt: true
 ```
 
@@ -39,9 +39,10 @@ Now you can set the file name of favicon yourself, just modify the value of `fav
 ### Code Highlight
 This code highlighting is implemented using [highlight.js](https://highlightjs.org/), If you want to turn on code highlighting, please add the `highlight` in `$BLOG/_config.yml`:
 
-```
-enable: true
-hljs: true
+```yaml
+highlight:
+  enable: true
+  hljs: true
 ```
 
 ### Podcast
@@ -50,13 +51,13 @@ saki.li now support podcast (thanks [shikwasa](https://github.com/jessuni/shikwa
 
 1. install hexo-generator-podcast in your blog foldder:
 
-```
+```bash
 yarn add hexo-generator-podcast
 ```
 
 2. Set your Podcast info in your blog `_config.yml`, like this:
 
-```
+```yaml
 podcast:
     type: rss2
     path: podcast.xml
