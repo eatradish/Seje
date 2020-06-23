@@ -3,8 +3,8 @@
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     <%
         let title = '';
-        if (is_post() && !is_page()) title = page.title + ' - ' + config.title;
-        else if (!is_post()) title = config.title;
+        if (is_post() || is_page()) title = page.title + ' - ' + config.title;
+        else if (!is_post() && !is_page()) title = config.title;
     %>
     <title><%= title %></title>
     <meta charset="utf-8">
