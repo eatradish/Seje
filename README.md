@@ -24,7 +24,7 @@ theme: Seje
 
 2. Using `hexo s` see if it works.
 
-### Except vs. Content?
+### Excerpt vs. Content?
 Does every post on your homepage need to show a summary or a whole post? You can modify it in `_config.yml`. The default is to display a full post. You can change it to this in your `$HEXOFLODDER/themes/Seje` to display the summary.
 
 ```yaml
@@ -47,7 +47,7 @@ highlight:
 
 ### Podcast
 
-saki.li now support podcast (thanks [shikwasa](https://github.com/jessuni/shikwasa)!) A case of using podcast on saki.li:
+Seje support podcast feature (thanks [shikwasa](https://github.com/jessuni/shikwasa)!) A case of using podcast on saki.li:
 
 1. install hexo-generator-podcast in your blog foldder:
 
