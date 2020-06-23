@@ -47,7 +47,7 @@ highlight:
 
 ### Podcast
 
-Seje support podcast feature (thanks [shikwasa](https://github.com/jessuni/shikwasa)!) A case of using podcast on Seje:
+Seje support podcast feature (thanks [shikwasa](https://github.com/jessuni/shikwasa)!), A case of using podcast on Seje:
 
 1. install hexo-generator-podcast in your blog foldder:
 
