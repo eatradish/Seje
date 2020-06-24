@@ -55,6 +55,12 @@ Seje support podcast feature (thanks [shikwasa](https://github.com/jessuni/shikw
 yarn add hexo-generator-podcast
 ```
 
+and set podcast as true on theme `_config.yml`:
+
+```yaml
+podcast: true
+```
+
 2. Set your Podcast info in your blog `_config.yml`, like this:
 
 ```yaml
