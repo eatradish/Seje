@@ -1,7 +1,29 @@
+hr::after {
+    content: "❧";
+    color: #212721;
+    width: 20rem;
+    display: inline-block;
+    background: linear-gradient(to bottom, transparent calc(50% - .5px), #212721 calc(50% - .5px), #212721, #212721 calc(50% + .5px), transparent calc(50% + .5px));
+    text-shadow: 0px 0px 3px #fff;
+    font-size: 1.5rem;
+}
+
+hr {
+    text-align: center;
+    padding: 0em 0 1em 0;
+    border: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 1.5rem;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin: 0;
+}
+
 .post {
     padding: 1.3em 2em;
-    border: 1px #ddd;
-    border-style: solid none;
     h1.title {
         margin: 0;
         display: flex;
@@ -178,5 +200,6 @@
     }
     .post-meta {
         color: black;
+        text-align: center;
     }
 }

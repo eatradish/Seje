@@ -1,5 +1,6 @@
 <section class="posts">
     <% page.posts.each(function (post) { %>
+    <hr>
     <article class="post">
         <div class="post-title">
             <a class="post-title-link" href="<%- url_for(post.path) %>"><%- post.title %></a>
