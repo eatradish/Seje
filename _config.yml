@@ -12,3 +12,5 @@ always_darkmode: false
 podcast: false
 favicon: favicon.png
 license: 本站文章使用 CC BY-NC-SA 4.0 许可证
+#font_mirror: fonts.loli.net // 国内更快
+font_mirror: fonts.googleapis.com
