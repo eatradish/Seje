@@ -7,7 +7,7 @@
     </div>
     <div class="post-meta">
         <%
-            const dat = date(post.date, "YYYY/MM/DD");
+            const dat = date(page.date, "YYYY/MM/DD");
             const chinese_date = to_chinese_date(dat);
             const result = theme.to_chinese_date ? chinese_date : dat;
         %>
