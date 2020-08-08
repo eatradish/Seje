@@ -13,7 +13,12 @@
             <% } %>
         </div>
         <div class="post-meta">
-            <span class="post-time"><%- date(post.date, "YYYY/MM/DD") %></span>
+            <%
+                const dat = date(post.date, "YYYY/MM/DD");
+                const chinese_date = to_chinese_date(dat);
+                const result = theme.to_chinese_date ? chinese_date : dat;
+            %>
+            <span class="post-time"><%- result %></span>
         </div>
     </article>
     <% }) %>
