@@ -1,5 +1,5 @@
 # 寫嘢 - Seje
-An beatutiful Hexo Theme
+寫嘢（Se2'Je5）, A beatutiful Hexo Theme
 
 ## Install
 1. Open your Hexo flodder and Execute the following command：
