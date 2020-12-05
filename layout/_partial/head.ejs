@@ -23,11 +23,9 @@
     <meta property="og:image:height" content="200" />
     <%
         const cn_font_family = "'Source Serif Pro', 'Source Han Serif SC', 'Noto Serif CJK SC',"
-        + " 'Noto Serif SC', 'Noto Serif CJK TC', 'Source Han Serif TC',"
-        + " 'Noto Serif CJK JP', 'Source Han Serif JP', serif";
+        + " 'Noto Serif SC', serif'";
         const other_font_family = "'Source Serif Pro', 'Source Han Serif TC', 'Noto Serif CJK TC'," 
-        + " 'Noto Serif TC', 'Noto Seif CJK SC', 'Source Han Serif SC',"
-        + " 'Noto Serif CJK JP', 'Source Han Serif JP', serif";
+        + " 'Noto Serif TC', 'Noto Serif KR', 'Noto Serif SC', serif";
         let font_family = '';
         let url_family_name = '';
         if (config.language === 'zh-cn' && !theme.vertical) {
@@ -35,7 +33,7 @@
             url_family_name = 'Noto+Serif+SC:wght@400;700';
         } else {
             font_family = theme.custom_fonts ? theme.custom_fonts + ', ' + other_font_family : other_font_family;
-            url_family_name = 'Noto+Serif+TC:wght@400;700';
+            url_family_name = 'Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+SC:wght@400;700';
         }
     %>
     <link href="https://<%= theme.font_mirror %>/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
