@@ -5,7 +5,7 @@
 1. Open your Hexo flodder and Execute the following command：
 
 ```bash
-git clone https://github.com/eatradish/Seje.git theme/Seje
+git clone https://github.com/eatradish/Seje.git themes/Seje
 ```
 
 2. Open your hexo `_config.yml`, set `theme` value as `Seje`:
