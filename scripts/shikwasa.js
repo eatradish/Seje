@@ -1,4 +1,4 @@
-hexo.extend.tag.register('podplayer', function(args){
+hexo.extend.tag.register('podplayer', function (args) {
     return `
     <div class="podcast"></div>\
     <script>\
