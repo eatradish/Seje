@@ -1,9 +1,8 @@
 menu:
   Home: /
-  Archives: /archives
-  About: /about
-  RSS: /rss
-  Member: /member
+  # Archives: /archives
+  # About: /about
+  # RSS: /rss
 
 vertical: false
 excerpt: false
