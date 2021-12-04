@@ -21,9 +21,16 @@ theme: Seje
 
 ```yaml
 theme_config:
-  # 始终使用深色模式
-  always_darkmode: true
+  # 在菜单中显示归档、关于、RSS 和会员计划
+  menu:
+    Home: /
+    Archives: /archives
+    About: /about
+    RSS: /rss
+    Member: /member
 ```
+
+所有配置项请参阅[Seje 下的 _config.yml 文件](./_config.yml)。
 
 ### 如果你使用 Disqus 评论
 1. 在你的 `_config.yml` 配置文件下的 `theme_config` 设置你的 `disqus_shortname` :

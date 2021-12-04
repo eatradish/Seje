@@ -23,9 +23,16 @@ Edit config in `theme_config` of `_config.yml` :
 
 ```yaml
 theme_config:
-  # Always use dark mode
-  always_darkmode: true
+  # Display Archives, About, RSS and Member in menu
+  menu:
+    Home: /
+    Archives: /archives
+    About: /about
+    RSS: /rss
+    Member: /member
 ```
+
+Check out all config under the [_config.yml of Seje](./_config.yml).
 
 ### If you using disqus
 1. Set your disqus_shortname in your `theme_config` of `_config.yml` :
