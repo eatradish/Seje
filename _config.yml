@@ -4,14 +4,14 @@ menu:
   # About: /about
   # RSS: /rss
 
-vertical: false
-excerpt: false
-darkmode: true
-always_darkmode: false
-podcast: false
-favicon: favicon.png
-license:
+# vertical: false
+# excerpt: false
+# darkmode: true
+# always_darkmode: false
+# podcast: false
+# favicon: favicon.png
+#license:
 #font_mirror: fonts.loli.net // 国内更快
-font_mirror: fonts.googleapis.com
-custom_fonts:
-to_chinese_date: true
+# font_mirror: fonts.googleapis.com
+# custom_fonts:
+# to_chinese_date: true
