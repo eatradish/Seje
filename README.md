@@ -59,12 +59,29 @@ favicon: foobar.png
 ```
 
 ### Code Highlight
-This code highlighting is implemented using [highlight.js](https://highlightjs.org/), If you want to turn on code highlighting, please add the `highlight` in `_config.yml` of your Hexo:
+#### Highlight
+Add the `highlight` in `_config.yml` of your Hexo:
 
 ```yaml
 highlight:
   enable: true
   hljs: true
+```
+
+#### Prism
+See [Hexo document](https://hexo.io/docs/syntax-highlight#PrismJS) for details.
+
+Add the `prismjs` in `_config.yml` of your Hexo:
+
+```yaml
+highlight:
+  enable: false
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: true
+  line_threshold: 0
+  # tab_replace: '    '
 ```
 
 ### Podcast
