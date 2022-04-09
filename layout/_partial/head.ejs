@@ -50,6 +50,21 @@
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <% } %>
+    <% if (config.prismjs.enable) { %>
+    <link href="//cdn.jsdelivr.net/npm/prismjs@1.27.0/themes/prism.min.css" rel="stylesheet" />
+
+        <% if (config.prismjs.line_number) { %>
+        <link href="//cdn.jsdelivr.net/npm/prismjs@1.27.0/plugins/line-numbers/prism-line-numbers.min.css" rel="stylesheet" />
+        <% } %>
+
+        <% if (!config.prismjs.preprocess) { %>
+        <script src="//cdn.jsdelivr.net/npm/prismjs@1.27.0/components/prism-core.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/prismjs@1.27.0/plugins/autoloader/prism-autoloader.min.js"></script>
+            <% if (config.prismjs.line_number) { %>
+            <script src="//cdn.jsdelivr.net/npm/prismjs@1.27.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+            <% } %>
+        <% } %>
+    <% } %>
     <% if (theme.podcast) { %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shikwasa@2.0.0/dist/shikwasa.min.css">
     <script src="https://cdn.jsdelivr.net/npm/shikwasa@2.0.0/dist/shikwasa.min.js"></script>
