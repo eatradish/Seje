@@ -31,7 +31,8 @@ body {
 
 .post {
     border-color: #616161;
-    code, pre {
+    /* `.token.punctuation` is a keyword of Prism */
+    code, pre, .token.punctuation {
         background-color: black;
         color: white;
     }
@@ -40,6 +41,14 @@ body {
     }
     a {
         color: #e5e5e5;
+    }
+    /* Remove `text-shadow` from Prism */
+    code[class*=language-], pre[class*=language-] {
+        text-shadow: 0 0 black;
+    }
+    /* Remove `background` from Prism */
+    .language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url {
+        background: unset;
     }
 }
 
