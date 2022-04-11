@@ -1,6 +1,8 @@
 # 寫嘢 - Seje
 寫嘢（Se2'Je5）, A beatutiful Hexo Theme
 
+**Please note that this project has deprecated, please use [Seje2](https://github.com/eatradish/Seje2)**
+
 [简体中文](./README_zh.md)
 
 ## Install

@@ -1,6 +1,8 @@
 # Seje - 寫嘢
 一个「白纸黑字」的 Hexo 主题，[效果](https://eatradish.github.io) 以及 [Github](https://github.com/eatradish/saki.li)
 
+**请注意，该项目已放弃维护，请使用 [Seje2](https://github.com/eatradish/Seje2)**
+
 ## 使用
 1. 进入 Hexo 目录，并执行如下命令：
 
